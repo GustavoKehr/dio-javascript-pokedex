@@ -3,13 +3,6 @@ const load_more_button = document.getElementById('load_more');
 const max_records = 151
 const limit = 10;
 let offset = 0;
-
-
-// 1,2,3,4,5           0 - 5
-// 6,7,8,9,10          0 - 5
-// 11,12,13,14,15      10 - 5 (button remove)
-
-
     
 function load_pokemon_itens(offset, limit) {
     poke_api.get_pokemons(offset, limit).then((pokemons = []) => {
