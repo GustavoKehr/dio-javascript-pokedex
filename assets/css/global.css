@@ -2,6 +2,7 @@
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
@@ -18,6 +19,12 @@ body {
 .content h1 {
     display: inline-block;
     padding-left: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.content .pokeball-image {
+    max-width: 10%;
 }
 
 @media screen and (min-width:992px) {
