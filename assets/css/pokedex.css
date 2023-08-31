@@ -2,12 +2,12 @@
 
 menu {
     background-color: white;
-    padding: 0;
+    padding: 1rem;
     margin: 0;
     position: fixed;
     top: 0;
     z-index: 999;
-    max-height: 80px;
+    max-height: 120px;
     width: 100%;
 
 }
