@@ -23,11 +23,14 @@ body {
     text-decoration: none;
     color: black;
     display: inline-block;
+    position: absolute;
+    top: .6rem;
+    left: 3rem;
 
 }
 
 .content .pokeball-image {
-    max-width: 10%;
+    max-width: 5%;
     
 }
 
