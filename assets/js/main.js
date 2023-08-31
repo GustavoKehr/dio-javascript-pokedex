@@ -6,7 +6,7 @@ const load_more_button = document.getElementById('load_more');
 // Define algumas constantes e variáveis para controle
 const max_records = 151; // Número máximo de registros de pokémon
 const limit = 10; // Número de pokémons para carregar a cada vez
-let offset = 1; // Deslocamento para acompanhar qual grupo de pokémons está sendo exibido
+let offset = 0; // Deslocamento para acompanhar qual grupo de pokémons está sendo exibido
 
 
 // Função para carregar itens de pokémon com um determinado deslocamento e limite
