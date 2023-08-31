@@ -42,8 +42,7 @@ function convert_pokeApi_detail_to_pokemon(poke_details) {
     const stat_name = poke_details.stats.map((statName) => statName.stat.name)
 
     pokemon.stats = stats //Base Stat de cada pokemon | 
-    pokemon.stat_name = stat_name; //Nome do stat 
-    console.log(stat_name)                        
+    pokemon.stat_name = stat_name; //Nome do stat                       
 
     return pokemon;
 }

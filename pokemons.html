@@ -28,29 +28,29 @@
 </head>
 
 <body>
-    <section class="content">
-    <img class="pokeball-image"  src="assets/image/faviconico.ico" alt="pokebola-image" />
-    <a href="index.html">
-        <h1>Pokedex</h1>
-    </a>
+    <section class="content" id="start">
+    <menu>
+        <a href="#start">
+        <img class="pokeball-image"  src="assets/image/faviconico.ico" alt="pokebola-image" />
+        
+            <h1>Pokedex</h1>
+        </a>
+        <div class="pagination">
+            <button id="load_more" type="button">
+                + Pokemons
+            </button>
+        </div>
+    </menu>
     
         <ol id="pokemon_list" class="pokemons">
             <!-- Pokemons Here -->
-        </ol>
+        </ol >
 
         
-
-        <div class="pagination">
-            <button id="load_more" type="button">
-                Load More
-            </button>
-        </div>
+        
 
     </section>
-    <div class="pokemon_detail">
-        <!-- Pokemon Detail -->
-    </div>
-    <script src="assets/js/pokemon_details.js"></script>
+    
     <script src="assets/js/pokemon_models.js"></script>
     <script src="assets/js/poke_api.js"></script>
     <script src="assets/js/main.js"></script>

@@ -1,12 +1,26 @@
 @charset "UTF-8";
 
+menu {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+menu img {
+    margin-top: 10px;
+}
+
 .pokemons {
     display: grid;
     grid-template-columns: 1fr;  /* 1fr == 1 fracao */
     padding: 0px;
     margin: 0px;
     list-style-type: none;
-    
+    margin-top: 5rem;
 }
 
 .pokemon {
@@ -15,8 +29,11 @@
     color: white;
     border-radius: 1rem;
     margin: .3rem;
-    padding: .8rem 1rem;
+    padding: .8rem;
     box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.158);
+    max-height: 105px;
+    
+    
 }
 
 .pokemon .number {
@@ -65,26 +82,69 @@
     align-self: flex-end;
 }
 
+
+/* POKEMON_DETAIL */
+
 .pokemon_detail {
+    padding: 0;
+    margin-top: 0;
+}
+
+.pokemon_stat {
+    list-style-type: none;
+    padding-left: 0;
+    border-radius: 1rem;
+    text-align: center;
+    height: max-content;
+    padding: 1.2rem 0;
+    margin-bottom: 1.5rem;
+    margin-top: .5rem;
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.158);
+}
+
+.pokemon_img {
+    width: 60%;
+}
+
+.pokemon_title {
+    text-transform: capitalize;
+    color: white;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.164);
+}
+
+
+.pokemon_stat span {
+    display: block;
+    color: white;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.164);
+}
+
+.pokemon_detail_stat {
     display: none;
 }
 
-.pagination {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 1rem;
+.pokemon-detalhe {
+    /* Estilos para os elementos de detalhes dos pokémons */
+    margin-top: 10px; /* Adapte o valor conforme necessário */
+    margin-bottom: 150px;
 }
 
+
+.pagination {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+}
+
+
 .pagination button {
-    background-color: #ED1B24;
+    background-color: black;
     color: white;
-    border-radius: .625rem;
+    padding: 1rem;
+    border-radius: 10px;
     border: none;
-    padding: .65rem .5rem;
-    font-size: .625rem;
+    width: fit-content;
+    
 }
 
 .pagination button:hover {
@@ -95,6 +155,7 @@
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
+        
     }
 }
 
