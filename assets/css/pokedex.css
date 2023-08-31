@@ -8,10 +8,12 @@ menu {
     top: 0;
     width: 100%;
     z-index: 999;
+    max-height: 80px;
 }
 
 menu img {
     margin-top: 10px;
+    max-height: 80px;
 }
 
 .pokemons {
@@ -140,11 +142,11 @@ menu img {
 .pagination button {
     background-color: black;
     color: white;
-    padding: 1rem;
+    padding: .6rem;
     border-radius: 10px;
     border: none;
     width: fit-content;
-    
+    max-height: 80px;
 }
 
 .pagination button:hover {
