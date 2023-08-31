@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- favicon -->
-    <link rel="shortcut icon" href="assets/image/faviconico.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/image/favicon.ico" type="image/x-icon" />
     <title>PokeDex</title>
 
     <!-- normalize css -->
@@ -28,21 +28,29 @@
 </head>
 
 <body>
-    <section class="content">
-    <img src="assets/image/favicon.ico" alt="pokebola-image" />
-    <h1>Pokedex</h1>
-    <ol id="pokemon_list" class="pokemons">
-        <!-- Pokemons Here -->
-    </ol>
-
+    <section class="content" id="start">
+    <menu>
+        <a href="#start">
+        <img class="pokeball-image"  src="assets/image/faviconico.ico" alt="pokebola-image" />
+        
+            <h1>Pokedex</h1>
+        </a>
         <div class="pagination">
             <button id="load_more" type="button">
-                Load More
+                + Pokemons
             </button>
         </div>
+    </menu>
+    
+        <ol id="pokemon_list" class="pokemons">
+            <!-- Pokemons Here -->
+        </ol >
+
+        
+        
 
     </section>
-
+    
     <script src="assets/js/pokemon_models.js"></script>
     <script src="assets/js/poke_api.js"></script>
     <script src="assets/js/main.js"></script>
