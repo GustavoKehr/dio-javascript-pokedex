@@ -34,9 +34,11 @@ menu img {
     margin: .3rem;
     padding: .8rem;
     box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.158);
-    max-height: 105px;
-    
-    
+    max-height: 105px;   
+}
+
+.pokemon:hover {
+    cursor: pointer;
 }
 
 .pokemon .number {
