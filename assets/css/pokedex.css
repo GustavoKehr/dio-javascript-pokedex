@@ -6,9 +6,10 @@ menu {
     margin: 0;
     position: fixed;
     top: 0;
-    width: 100%;
     z-index: 999;
     max-height: 80px;
+    width: 100%;
+
 }
 
 menu img {
@@ -135,7 +136,7 @@ menu img {
 .pagination {
     position: absolute;
     top: 1rem;
-    right: 2rem;
+    right: 1.8rem;
 }
 
 

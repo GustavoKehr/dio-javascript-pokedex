@@ -38,4 +38,11 @@ body {
         height: auto;
         border-radius: 1rem;
     }
+
+    menu {
+        
+        max-width: 992px
+    
+    }
+    
 }
