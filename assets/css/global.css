@@ -19,7 +19,7 @@ body {
 .content menu a h1 {
     padding-left: 1rem;
     margin-bottom: 1rem;
-    
+    max-height: 80px;
     text-decoration: none;
     color: black;
     display: inline-block;
